@@ -8,7 +8,7 @@ I chose spatial hashing for collisions, i've tried quadtree but i think spatial 
 
 ToDos: 
 
--Better drawing service 
--Finish ennemies AI and ennemies POOL
--Finish design/pixel art
--More tiles properties, more ennemies, ect.
+-Better drawing service  <br/>
+-Finish ennemies AI and ennemies POOL <br/>
+-Finish design/pixel art <br/>
+-More tiles properties, more ennemies, ect <br/>
