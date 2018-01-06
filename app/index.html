@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>site app</title>
+
+	<link rel="stylesheet" type="text/css" href="css/temp.css">
+</head>
+
+<body ng-app="gameApp">
+
+	<section ng-controller="gameCtrl as gameCtrl" class="content" ng-mouseup="gameCtrl.mouseUp($event)" ng-mousedown="gameCtrl.mouseDown($event)" ng-mousemove="gameCtrl.mouseMove($event)" ng-keyup="gameCtrl.keyup($event)" ng-keydown="gameCtrl.keydown($event)"
+	  tabIndex="0">
+		<div class="" platform-game>
+		</div>
+	</section>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+	<script src="app.js"></script>
+	<script src="game/game.js"></script>
+	<script src="game/js/graphics-engine.js"></script>
+	<script src="game/js/render.js"></script>
+	<script src="game/js/map.js"></script>
+	<script src="game/js/player.js"></script>
+	<script src="game/js/key-press.js"></script>
+	<script src="game/js/fire.js"></script>
+	<script src="game/js/update.js"></script>
+	<script src="game/js/background.js"></script>
+	<script src="game/js/ennemy.js"></script>
+	<script src="game/js/spatialhash.js"></script>
+	<script src="game/js/collide.js"></script>
+	<script src="game/constant/caracs-map.js"></script>
+	<script src="game/constant/player-dir.js"></script>
+
+
+</body>
+
+</html>
